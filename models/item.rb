@@ -4,8 +4,8 @@ class Item
   def initialize(params)
     binding.pry
 
-    @item = params[name] #passes test but breaks in browser
-        # @item = params[name]
+    # @item = params[name] #passes test but breaks in browser
+    @item = params["name"]
   end
 
 end
