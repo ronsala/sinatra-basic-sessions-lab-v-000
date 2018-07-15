@@ -8,6 +8,7 @@ class App < Sinatra::Base
   end
 
   get '/' do
+    @item = params
     @session = session
 
     erb :index
