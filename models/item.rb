@@ -1,5 +1,5 @@
 class Item
-  attr_reader :item
+  attr_reader :name
 
   def initialize(params)
     # binding.pry
