@@ -5,7 +5,7 @@ class Item
     # binding.pry
 
     # @item = params[name] #passes test but breaks in browser
-    @name = params["name"] #fails test, shows "@item" in browser
+    @name = params["item"] #fails test, shows "@item" in browser
   end
 
 end
